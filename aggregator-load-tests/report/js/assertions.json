@@ -1,0 +1,10 @@
+{
+  "simulation": "com.madkroll.aggregation.tests.gatling.AggregationGrowLoadFromLowToHigh",
+  "simulationId": "aggregationgrowloadfromlowtohigh",
+  "start": 1595722741787,
+  "description": "",
+  "scenarios": ["AggregationGrowLoadFromLowToHigh"],
+  "assertions": [
+
+  ]
+}

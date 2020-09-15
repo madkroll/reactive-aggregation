@@ -1,0 +1,27 @@
+spring.jackson.serialization.FAIL_ON_EMPTY_BEANS: false
+
+providers:
+  pricing:
+    backend:
+      base-url: http://localhost/pricing
+      timeout-in-seconds: 20
+      max-retries: 1
+    batch:
+      capacity: 5
+      timeout-in-seconds: 5
+  track:
+    backend:
+      base-url: http://localhost/track
+      timeout-in-seconds: 20
+      max-retries: 1
+    batch:
+      capacity: 5
+      timeout-in-seconds: 5
+  shipments:
+    backend:
+      base-url: http://localhost/shipments
+      timeout-in-seconds: 20
+      max-retries: 1
+    batch:
+      capacity: 5
+      timeout-in-seconds: 5
